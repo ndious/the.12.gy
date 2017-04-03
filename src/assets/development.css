@@ -3,3 +3,7 @@
     font-size: 46px;
   }
 }
+
+.btn-group, .btn-group-vertical {
+  margin-bottom: 10px;
+}

@@ -2,7 +2,7 @@ export default [
   {
     name: 'the.12.gy',
     url: 'http://the.12.gy',
-    opensource: 'https://github.com/ndufreche/the-12-gy',
+    opensource: 'https://github.com/ndufreche/the.12.gy',
     description: 'Site personnel',
     techs: ['React', 'Redux', 'React-Router', 'radium'],
     status: 'online',
