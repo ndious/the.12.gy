@@ -7,7 +7,7 @@ import { syncHistoryWithStore } from 'react-router-redux'
 
 import Reducers from './reducers'
 import App from './components/app'
-import { HomePage, DevelopmentsPage, ActivityPage } from './components/pages'
+import { HomePage, DevelopmentsPage, ActivityPage, ExperiencesPage } from './components/pages'
 
 const store = createStore(
   Reducers,
@@ -23,6 +23,7 @@ render(
         <Route path="/" component={App}>
           <IndexRoute component={HomePage}/>
           <Route path="developments" component={DevelopmentsPage}/>
+          <Route path="experiences" component={ExperiencesPage}/>
           <Route path="activity" component={ActivityPage}/>
         </Route>
       </Router>
