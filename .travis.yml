@@ -1,7 +1,10 @@
 language: node_js
 node_js:
   - 6
-install: true
+cache:
+  yarn: true
+install:
+  - yarn
 script:
   - yarn test
 env:
