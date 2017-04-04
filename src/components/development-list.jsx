@@ -4,7 +4,6 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import Development from './development.jsx'
 import Definition from './../definitions/development-definition'
 
-
 const DevelopmentList = ({developments}) => (
   <Grid>
     <Row className="show-grid">

@@ -2,7 +2,6 @@ import React from 'react'
 import { Jumbotron, Row, Col } from 'react-bootstrap'
 
 import Definition from './../definitions/experience-definition'
-// import './../assets/development.css'
 
 const Experience = ({ 
   company, 

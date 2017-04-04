@@ -1,9 +1,10 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './../assets/app.css'
-// import Navigation from './navigation.jsx'
+
 import NavigationContainer from './../containers/navigation-container'
 import Footer from './footer.jsx'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './../assets/app.css'
 
 const App = ({children}) => {
   return (
