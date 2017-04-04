@@ -16,18 +16,18 @@ const Navigation = ({pathname}) => {
   return (
     <header>
       <Navbar collapseOnSelect fixedTop>
-            <Navbar.Header>
-              <Navbar.Brand>
-                <Link to="/" className="navbar-brand"><code>{title}</code></Link>
-              </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav>
-              <Li isActive={pathname === '/experiences'}><Link to="/experiences">Experiences</Link></Li>
-              <Li isActive={pathname === '/developments'}><Link to="/developments">Developments</Link></Li>
-              <Li isActive={pathname === '/activity'}><Link to="/activity">@activity</Link></Li>
-            </Nav>
+        <Navbar.Header>
+          <Navbar.Brand>
+            <Link to="/" className="navbar-brand"><code>{title}</code></Link>
+          </Navbar.Brand>
+        <Navbar.Toggle />
+        </Navbar.Header>
+        <Navbar.Collapse>
+          <Nav>
+            <Li isActive={pathname === '/experiences'}><Link to="/experiences">Experiences</Link></Li>
+            <Li isActive={pathname === '/developments'}><Link to="/developments">Developments</Link></Li>
+            <Li isActive={pathname === '/activity'}><Link to="/activity">@activity</Link></Li>
+          </Nav>
         </Navbar.Collapse>
       </Navbar>
     </header>
