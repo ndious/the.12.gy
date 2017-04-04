@@ -1,41 +1,46 @@
 import React from 'react'
-import { Grid, Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap' 
+import { Grid, Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap'
+import socials from './../data/socials.json'
 
 import './../assets/footer.css'
+
+const SocialLink = ({url, overlay, icon}) => (
+  <Col xs={2} sm={1}>
+    <OverlayTrigger placement="top" overlay={<Tooltip id={icon}>{overlay}</Tooltip>}>
+      <a href={url}><i className={`icon ion-${icon}`}></i></a>
+    </OverlayTrigger>
+  </Col>
+)
+
+const BuildLink = ({url, src, alt}) => (
+  <Col xs={4} sm={6}>
+    <a href="https://travis-ci.org/ndufreche/the.12.gy"><img alt="tarvis-ci build status badge" src="https://travis-ci.org/ndufreche/the.12.gy.svg?branch=master" /></a>
+  </Col>
+)
 
 const Footer = () => (
   <footer className="footer">
     <Grid>
       <Row className="social-icons">
-        <Col xs={1}>
-          <OverlayTrigger placement="top" overlay={<Tooltip id="twitter">Twitter account</Tooltip>}>
-            <a href="https://www.twitter.com/@ndufreche"><i className="icon ion-social-twitter"></i></a>
-          </OverlayTrigger>
-        </Col>
-        <Col xs={1}>
-          <OverlayTrigger placement="top" overlay={<Tooltip id="github">Github account</Tooltip>}>
-            <a href="https://github.com/ndufreche"><i className="icon ion-social-github"></i></a>
-          </OverlayTrigger>
-        </Col>
-        <Col xs={1}>
-          <OverlayTrigger placement="top" overlay={<Tooltip id="github">Github account</Tooltip>}>
-            <a href="http://stackoverflow.com/users/802872/ndufreche"><i className="icon ion-android-chat"></i></a>
-          </OverlayTrigger>
-        </Col>
-        <Col xs={1}>
-          <OverlayTrigger placement="top" overlay={<Tooltip id="github">Github account</Tooltip>}>
-            <a href="https://fr.linkedin.com/in/nicolas-dufreche-95798a15"><i className="icon ion-social-linkedin"></i></a>
-          </OverlayTrigger>
-        </Col>
-        <Col xs={1}>
-          <OverlayTrigger placement="top" overlay={<Tooltip id="github">Github account</Tooltip>}>
-            <a href="https://plus.google.com/+NicolasDufreche"><i className="icon ion-social-googleplus"></i></a>
-          </OverlayTrigger>
-        </Col>
-        <Col xs={1}>
-          <OverlayTrigger placement="top" overlay={<Tooltip id="github">Github account</Tooltip>}>
-            <a href="https://www.facebook.com/di0us"><i className="icon ion-social-facebook"></i></a>
-          </OverlayTrigger>
+        {socials.map((social, key) => (<SocialLink key={key} {...social} />))}
+
+        <Col xs={12} sm={4} smOffset={2}>
+          <Row className="social-icons">
+            {
+              [
+                {
+                  url: 'https://travis-ci.org/ndufreche/the.12.gy',
+                  src: 'https://travis-ci.org/ndufreche/the.12.gy.svg?branch=master',
+                  alt: 'tarvis-ci build status badge'
+                },
+                {
+                  url: 'https://codeclimate.com/github/ndufreche/the.12.gy',
+                  src: 'https://codeclimate.com/github/ndufreche/the.12.gy/badges/gpa.svg',
+                  alt: 'tcode climate badge'
+                }
+              ].map((build, key) => (<BuildLink key={key} {...build} />))
+            }
+          </Row>
         </Col>
       </Row>
     </Grid>
