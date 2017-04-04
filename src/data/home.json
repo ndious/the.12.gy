@@ -1,0 +1,50 @@
+{
+  "curiosities": [
+    {
+      "title": "Learn",
+      "desc": "Self-made man, I work every day to be a better developer, upgrading my skills/knowledges and learn new technologies.",
+      "icon": "ios-infinite"
+    },
+    {
+      "title": "Create",
+      "desc": "I can find solutions for all problems encoutered. I never give up and I think about evrithing is possible.",
+      "icon": "ios-lightbulb"
+    },
+    {
+      "title": "Experiment",
+      "desc": "I work on new paradigms, try to create innovating solutions. More abstract is it, better I'm.",
+      "icon": "erlenmeyer-flask"
+    },
+    {
+      "title": "Develop",
+      "desc": "Need to optimise historical code, reduce technical debt, deep refactoring. I can help you on every steps of program life cycles.",
+      "icon": "code"
+    }
+  ],
+  "skillz": [
+    {
+      "title": "JavaScript",
+      "level": 4.5
+    },
+    {
+      "title": "PHP",
+      "level": 5
+    },
+    {
+      "title": "Ruby",
+      "level": 3.5
+    },
+    {
+      "title": "Python",
+      "level": 3
+    },
+    {
+      "title": "SQL",
+      "level": 4.5
+    },
+    {
+      "title": "CSS",
+      "level": 4
+    }
+  ]
+}

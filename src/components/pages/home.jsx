@@ -1,5 +1,34 @@
 import React from 'react';
-import { Grid, Row, Col, Clearfix } from 'react-bootstrap' 
+import { Grid, Row, Col, Clearfix } from 'react-bootstrap'
+
+import { curiosities, skillz } from './../../data/home.json'
+
+import './../../assets/home.css'
+
+const CuriosityBlock = ({title, desc, icon}) => (
+  <Col xs={6} md={3} className="text-center">
+    <h3>{title}</h3>
+    <div><i className={`icon ion-${icon}`}></i></div>
+    <p className="lead">{desc}</p>
+  </Col>
+)
+
+const SkillBlock = ({title, level}) => (
+  <li>
+    <Row>
+      <Col xs={5} sd={6}>
+        {title} 
+      </Col>
+      <Col xs={7} sd={6}>
+        {[1, 2, 3, 4, 5].map((val) => {
+          const delta = (level + 1 - val)
+          const icon = (delta <= 0) ? 'star-outline' : (delta === 0.5 ? 'star-half' : 'star')
+          return (<i key={val} className={`ion-android-${icon}`}></i>)
+        })}
+      </Col>
+    </Row>
+  </li>
+)
 
 const Home = () => {
   return (
@@ -17,38 +46,30 @@ const Home = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={12}  className="text-center">
+          <Col xs={6} sm={4}>
             <h4>Why me :</h4>
-            <ul className="list-unstyled">
+            <ul className="list">
               <li>I'm hard worker</li>
               <li>I love my job</li>
-              <li>I have experiences</li>
+              <li>I'm' experimented</li>
               <li>I use multiple technologies</li>
+            </ul>
+          </Col>
+          <Col xs={6} sm={5} smOffset={3} md={4} mdOffset={4} lg={3} lgOffset={5}>
+            <h4>Skillz :</h4>
+            <ul className="list-unstyled">
+              {
+                skillz.map((skill, key) => (<SkillBlock key={key} {...skill} />))
+              }
             </ul>
           </Col>
         </Row>
         <Row>
-          <Col xs={6} md={3} className="text-center">
-            <h3>learn</h3>
-            <div><i className="icon ion-ios-infinite"></i></div>
-            <p className="lead">Self-made man, I work every day to be a better developer, upgrading my skills/knowledges and learn new technologies.</p>
-          </Col>
-          <Col xs={6} md={3} className="text-center">
-            <h3>Create</h3>
-            <div><i className="icon ion-ios-lightbulb"></i></div>
-            <p className="lead">I can find solutions for all problems encoutered. I never give up and I think about evrithing is possible.</p>
-          </Col>
-          <Clearfix visibleXsBlock visibleSmBlock />
-          <Col xs={6} md={3} className="text-center">
-            <h3>Experiment</h3>
-            <div><i className="icon ion-erlenmeyer-flask"></i></div>
-            <p className="lead">I work on new paradigms, try to create innovating solutions. More abstract is it, better I'm.</p>
-          </Col>
-          <Col xs={6} md={3} className="text-center">
-            <h3>Develop</h3>
-            <div><i className="icon ion-code"></i></div>
-            <p className="lead">Need to optimise historical code, reduce technical debt, deep refactoring. I can help you on every steps of program life cycles</p>
-          </Col>
+          {
+            curiosities.map((values, key) => {
+              return key % 2 ? (<CuriosityBlock key={key} {...values} />) : (<span key={key}><Clearfix visibleXsBlock visibleSmBlock /><CuriosityBlock {...values} /></span>)
+            })
+          }
         </Row>
       </Grid>
     </div>
