@@ -16,10 +16,10 @@ const CuriosityBlock = ({title, desc, icon}) => (
 const SkillBlock = ({title, level}) => (
   <li>
     <Row>
-      <Col xs={5} sd={6}>
+      <Col xs={5} sm={6}>
         {title} 
       </Col>
-      <Col xs={7} sd={6}>
+      <Col xs={7} sm={6}>
         {[1, 2, 3, 4, 5].map((val) => {
           const delta = (level + 1 - val)
           const icon = (delta <= 0) ? 'star-outline' : (delta === 0.5 ? 'star-half' : 'star')
@@ -36,7 +36,7 @@ const Home = () => {
       <Grid>
         <Row>
           <Col xs={12}>
-            <h2>Meet the 12 guy</h2>
+            <h2 className="meet">Meet the 12 guy</h2>
             <h1>Nicolas Dufreche</h1>
           </Col>
         <Row>
