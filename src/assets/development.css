@@ -46,4 +46,7 @@
 
 .developments-filter {
   z-index: 12;
+  top: 40px;
+  padding: 10px 0;
+  background-color: #e2e2e2;
 }

@@ -6,7 +6,7 @@ import Definition from './../definitions/development-definition'
 
 const DevelopmentList = ({developments}) => (
   <Grid>
-    <Row className="show-grid">
+    <Row>
       <Col xs={12}>
         {developments.map((development, key) =>
           <Development

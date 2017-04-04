@@ -21,6 +21,10 @@ body {
   background-color: #f5f5f5;
 }
 
+.footer-link {
+  color: #4e5d6c;
+}
+
 .icon {
   font-size: 2em;
 }

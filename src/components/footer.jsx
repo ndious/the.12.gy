@@ -7,7 +7,7 @@ import './../assets/footer.css'
 const SocialLink = ({url, overlay, icon}) => (
   <Col xs={2} sm={1}>
     <OverlayTrigger placement="top" overlay={<Tooltip id={icon}>{overlay}</Tooltip>}>
-      <a href={url}><i className={`icon ion-${icon}`}></i></a>
+      <a href={url} className="footer-link"><i className={`icon ion-${icon}`}></i></a>
     </OverlayTrigger>
   </Col>
 )

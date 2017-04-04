@@ -30,7 +30,7 @@ const Development = ({
     <Row className="show-grid">
       <Col xs={12}>
         <div className="btn-group" role="group" aria-label="...">
-          {techs.map((value, key) => (<Button key={key} bsStyle="default">{value}</Button>))}
+          {techs.map((value, key) => (<Button key={key} bsStyle="info">{value}</Button>))}
         </div>
       </Col>
     </Row>

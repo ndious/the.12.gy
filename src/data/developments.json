@@ -3,27 +3,27 @@
     "name": "the.12.gy",
     "url": "http://the.12.gy",
     "opensource": "https://github.com/ndufreche/the.12.gy",
-    "description": "Site personnel",
-    "techs": ["React", "Redux", "React-Router", "radium"],
+    "description": "Personnal website",
+    "techs": ["React", "Redux", "React-Router", "React-Bootstrap", "ServiceWorker"],
     "status": "online",
-    "work": "Conception, développement, graphisme et intégration"
+    "work": "Conception, development, graphisme and integration"
   },
   {
     "name": "Yepa",
     "url": "localhost:3000",
-    "description": "Projet privé réalisé avec mon frère",
+    "description": "Private project realized with my brother",
     "techs": ["React", "RxDB", "React-Router", "PouchDB"],
     "status": "development",
-    "work": "Conception, développement, graphisme et intégration"
+    "work": "Conception, development, graphisme and integration"
   },
   {
     "name": "Tiimber",
     "url": "https://github.com/ndufreche/tiimber",
     "opensource": "https://github.com/ndufreche/tiimber",
     "description": "Créer un framework Views/Actions en php",
-    "techs": ["PHP7", "ReactPHP", "Symfony router component"],
+    "techs": ["PHP7", "ReactPHP", "Symfony-Router"],
     "status": "development",
-    "work": "Conception et développement"
+    "work": "Conception and development"
   },
   {
     "name": "houra",
@@ -32,24 +32,24 @@
     "description": "NodeJs Framework builder, basé sur le style docker-compose",
     "techs": ["NodeJS", "HapiJS"],
     "status": "conception",
-    "work": "Conception et développement en collaboration avec un coworkeur" 
+    "work": "Conception et development en collaboration avec un coworkeur" 
   },
   {
     "name": "redlist",
     "url": "https://redlist.github.io",
     "opensource": "https://gitub.com/redlist/redlist.github.io",
     "description": "Projet éclair en 3 jours pour aider un ami à apprendre le JavaScript/Stylus/Pug/SW",
-    "techs": ["JavaScript", "Stylus", "Pug", "ServiceWorker", "materializecss", "jQuery"],
+    "techs": ["JavaScript", "Stylus", "Pug", "ServiceWorker", "materialize", "jQuery"],
     "status": "online",
-    "work": "Conception, développement, graphisme et intégration"
+    "work": "Conception, development, graphisme et intégration"
   },
   {
     "name": "takaclic",
     "url": "https://www.takaclic.com",
     "description": "Plateforme B to C autour du tourrisme",
-    "techs": ["PHP", "materializecss", "jQuery"],
+    "techs": ["PHP", "materialize", "jQuery"],
     "status": "online",
-    "work": "Développement, graphisme et intégration"
+    "work": "Development, graphisme et intégration"
   },
   {
     "name": "Jiink",
@@ -58,7 +58,7 @@
     "description": "Application multi support pour ce retrouvé entre amis",
     "techs": ["JavaScript"],
     "status": "broken",
-    "work": "Conception et développement"
+    "work": "Conception et development"
   },
   {
     "name": "BFM TV - RMC - 01 NET",
@@ -77,7 +77,7 @@
     "techs": ["Symfony", "jQuery", "Backbones", "JSClass"],
     "status": "online",
     "company": "Lp Digital",
-    "work": "Développement du la partie Back end et Front end, mise en place des testes unitaire, processus de travaille, gestion d\"équipes"
+    "work": "Development du la partie Back end et Front end, mise en place des testes unitaire, processus de travaille, gestion d\"équipes"
   },
   {
     "name": "Wansquare",
@@ -86,7 +86,7 @@
     "techs": ["BackBee"],
     "status": "online",
     "company": "Lp Digital",
-    "work": "Développement du site, création d\"un CRM intégré et système d\"emailing"
+    "work": "Development du site, création d\"un CRM intégré et système d\"emailing"
   },
   {
     "name": "Le revenu",
@@ -184,7 +184,7 @@
     "techs": ["Symfony 1.4", "jQuery", "Less"],
     "status": "offline",
     "company": "PixelCookers",
-    "work": "Amélioration du plugin sfZnForum et intégration graphique, mise en place des teste unitaires, amélioration du module de raid et fiche utilisateur, conception et développement d’un plugin CMS de guilde avec son propre système de plugin et de gestion des dépendances, création d’un plugin pour l’intégration de Markitup, débogage des embed form de symfony et divers évolutions."
+    "work": "Amélioration du plugin sfZnForum et intégration graphique, mise en place des teste unitaires, amélioration du module de raid et fiche utilisateur, conception et development d’un plugin CMS de guilde avec son propre système de plugin et de gestion des dépendances, création d’un plugin pour l’intégration de Markitup, débogage des embed form de symfony et divers évolutions."
   },
   {
     "name": "Duosun",
@@ -192,7 +192,7 @@
     "description": "Site vitrine pour la gouttière solaire Duosun",
     "techs": ["Zend", "jQuery", "Less", "Twitter Bootstrap"],
     "status": "online",
-    "work": "Conception et développement du site, configuration serveur"
+    "work": "Conception et development du site, configuration serveur"
   },
   {
     "name": "C’est quoi le luxe",
@@ -200,7 +200,7 @@
     "description": "Site fun sur le thème de votre vision du luxe",
     "techs": ["Zend", "jQuery", "Less"],
     "status": "online",
-    "work": "Conception, design, développementet intégrationdu site, configuration serveur"
+    "work": "Conception, design, developmentet intégrationdu site, configuration serveur"
   },
   {
     "name": "Géomagna",
@@ -208,7 +208,7 @@
     "description": "Course géolocalisé par smartphone via navigateur et création du site évènementiel",
     "techs": ["Zend", "jQuery", "Less"],
     "status": "offline",
-    "work": "Conception, design, développement et intégration du site, infographies, affiches, configuration serveur"
+    "work": "Conception, design, development et intégration du site, infographies, affiches, configuration serveur"
   },
   {
     "name": "Aditu Intranet",
@@ -216,6 +216,6 @@
     "techs": ["Symfony1.2", "jQuery"],
     "status": "offline",
     "company": "Aditu",
-    "work": "Conception, design, développement et intégration du site"
+    "work": "Conception, design, development et intégration du site"
   }
 ]
