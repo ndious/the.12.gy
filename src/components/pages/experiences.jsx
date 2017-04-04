@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid, Row, Col } from 'react-bootstrap' 
 
 import Experience from './../experience';
-import data from './../../data/experiences'
+import data from './../../data/experiences.json'
 
 const Experiences = () => {
   return (
