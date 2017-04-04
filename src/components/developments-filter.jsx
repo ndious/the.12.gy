@@ -5,7 +5,7 @@ import constants from './../constants'
 import FilterLink from './../containers/filter-link-container'
 
 const DevelopmentsFilter = () => (
-  <Grid className="navbar-fixed-top">
+  <Grid className="navbar-fixed-top developments-filter">
     <Row>
       <Col xs={12}>
         <ul className="nav nav-pills">

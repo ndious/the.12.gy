@@ -6,8 +6,8 @@ import DevelopmentsFilter from './../developments-filter.jsx'
 const Developments = () => {
   return (
     <div className="developments-page">
-      <DevelopmentsFilter />
       <DevelopmentsContainer />
+      <DevelopmentsFilter />
     </div>
   );
 }

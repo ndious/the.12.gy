@@ -15,7 +15,7 @@ const Development = ({
   work
 }) => (
   <Jumbotron>
-    <h1>{name}</h1>
+    <h1 className="jumbo-title">{name}</h1>
     <p>{description}</p>
     <p>Work : {work}</p>
 

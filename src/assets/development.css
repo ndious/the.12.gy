@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-  .jumbotron .h1, .jumbotron h1 {
+  .jumbotron .jumbo-title {
     font-size: 46px;
   }
 }
@@ -42,4 +42,8 @@
   .developments-page {
     margin-top: 78px;
   }
+}
+
+.developments-filter {
+  z-index: 12;
 }
