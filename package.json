@@ -21,10 +21,7 @@
     "enzyme": "^2.8.0",
     "less": "^2.7.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-scripts": "0.9.5",
-    "redux-devtools": "^3.3.2",
-    "redux-devtools-dock-monitor": "^1.1.1",
-    "redux-devtools-log-monitor": "^1.2.0"
+    "react-scripts": "0.9.5"
   },
   "scripts": {
     "bootstrap": "lessc src/less/bootstrap.less src/assets/bootstrap.css",
