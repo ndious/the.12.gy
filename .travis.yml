@@ -5,6 +5,7 @@ cache:
   yarn: true
 install:
   - yarn
+  - yarn run bootstrap
 script:
   - yarn run test-ci
 env:
