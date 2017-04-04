@@ -13,8 +13,8 @@ const SocialLink = ({url, overlay, icon}) => (
 )
 
 const BuildLink = ({url, src, alt}) => (
-  <Col xs={4} sm={6}>
-    <a href="https://travis-ci.org/ndufreche/the.12.gy"><img alt="tarvis-ci build status badge" src="https://travis-ci.org/ndufreche/the.12.gy.svg?branch=master" /></a>
+  <Col xs={4} sm={6} className="build-link">
+    <a href={url}><img alt={alt} src={src} /></a>
   </Col>
 )
 
@@ -24,7 +24,7 @@ const Footer = () => (
       <Row className="social-icons">
         {socials.map((social, key) => (<SocialLink key={key} {...social} />))}
 
-        <Col xs={12} sm={4} smOffset={2}>
+        <Col xsHidden sm={4} smOffset={2} md={3} mdOffset={3} lg={2} lgOffset={4}>
           <Row className="social-icons">
             {
               [

@@ -28,3 +28,7 @@ body {
 .tooltip.top {
   margin-top: -8px;
 }
+
+.build-link {
+  margin-top: 9px;
+}

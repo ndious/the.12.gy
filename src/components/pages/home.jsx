@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap' 
+import { Grid, Row, Col, Clearfix } from 'react-bootstrap' 
 
 const Home = () => {
   return (
@@ -38,6 +38,7 @@ const Home = () => {
             <div><i className="icon ion-ios-lightbulb"></i></div>
             <p className="lead">I can find solutions for all problems encoutered. I never give up and I think about evrithing is possible.</p>
           </Col>
+          <Clearfix visibleXsBlock visibleSmBlock />
           <Col xs={6} md={3} className="text-center">
             <h3>Experiment</h3>
             <div><i className="icon ion-erlenmeyer-flask"></i></div>
