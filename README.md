@@ -15,6 +15,8 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 run command `yarn` or `npm install` to install dependencies
 
+Compile twitter bootstrap css `yarn run bootstrap` or `npm run bootstrap`
+
 ## Folder Structure
 
 After creation, your project should look like this:
@@ -56,6 +58,10 @@ You will also see any lint errors in the console.
 ### `npm run c9start` or `yarn run c9start`
 
 Runs the app in the development mode on c9.io environment.<br>
+
+### `npm run bootstrap` or `yarn run bootstrap`
+
+Runs the custom bootstrap css compilation
 
 ### `npm test` or `yarn test`
 
