@@ -3,7 +3,7 @@ import React from 'react'
 import NavigationContainer from './../containers/navigation-container'
 import Footer from './footer.jsx'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './../assets/bootstrap.css'
 import './../assets/app.css'
 
 const App = ({children}) => {

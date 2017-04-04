@@ -1,0 +1,37 @@
+/*!
+ * Minimal Bootstrap dependency
+ */
+
+@src: './../../node_modules/bootstrap/less';
+
+// Core variables and mixins
+@import "@{src}/variables.less";
+@import "variables.less";
+@import "mixins.less";
+
+// Reset and dependencies
+@import "@{src}/normalize.less";
+
+// Core CSS
+@import "@{src}/scaffolding.less";
+@import "@{src}/type.less";
+@import "@{src}/code.less";
+@import "@{src}/grid.less";
+@import "@{src}/forms.less";
+@import "@{src}/buttons.less";
+
+// Components
+@import "@{src}/component-animations.less";
+@import "@{src}/dropdowns.less";
+@import "@{src}/button-groups.less";
+@import "@{src}/navs.less";
+@import "@{src}/navbar.less";
+@import "@{src}/jumbotron.less";
+@import "@{src}/responsive-embed.less";
+
+// Components w/ JavaScript
+@import "@{src}/tooltip.less";
+
+// Utility classes
+@import "@{src}/utilities.less";
+@import "@{src}/responsive-utilities.less";
