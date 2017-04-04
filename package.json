@@ -30,6 +30,7 @@
     "c9start": "PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "test-ci": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
   }
 }
