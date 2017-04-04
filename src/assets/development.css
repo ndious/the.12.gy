@@ -7,3 +7,39 @@
 .btn-group, .btn-group-vertical {
   margin-bottom: 10px;
 }
+
+.container.navbar-fixed-top {
+  top: 57px;
+}
+
+.developments-page {
+  margin-top: 37px;
+}
+
+.nav-pills li {
+  margin-top: 2px;
+}
+
+.nav-pills li a {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.nav-pills li a:hover,
+.nav-pills li a:focus {
+  background-color: #286090;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:hover,
+.nav-pills li.active a:focus,
+.nav-pills li.active a:active,
+.nav-pills li.active a:visited {
+  background-color: #5cb85c;
+}
+
+@media screen and (max-width: 362px) {
+  .developments-page {
+    margin-top: 78px;
+  }
+}

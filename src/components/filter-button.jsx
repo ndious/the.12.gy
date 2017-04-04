@@ -1,19 +1,17 @@
 import React, { PropTypes } from 'react'
 
 const FilterButton = ({ active, children, onClick }) => {
-  if (active) {
-    return <span>{children}</span>
-  }
-
   return (
-    <a href="#"
-       onClick={e => {
-         e.preventDefault()
-         onClick()
-       }}
-    >
-      {children}
-    </a>
+    <li role="presentation" className={active && 'active'}>
+      <a href="#"
+        onClick={e => {
+          e.preventDefault()
+          onClick()
+        }}
+      >
+        {children}
+      </a>
+    </li>
   )
 }
 
