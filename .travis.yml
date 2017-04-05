@@ -11,8 +11,8 @@ env:
     - USE_YARN=yes
 addons:
   code_climate:
-    repo_token: 194c145c5ab13ed3aee5d3274d56427e6809b591ca03531645f9796dfa365bb7
+    repo_token: CODE-CLIMATE-TOKEN
 after_success:
   - npm install -g codeclimate-test-reporter netlify-cli
   - codeclimate-test-reporter < coverage/lcov.info
-  - netlify deploy -e production
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then netlify deploy -e production -t NETLIFY-TOKEN; fi'
