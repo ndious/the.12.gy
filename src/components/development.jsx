@@ -15,8 +15,9 @@ const Development = ({
 }) => (
   <Jumbotron>
     <h1 className="jumbo-title">{name}</h1>
-    <p>{description}</p>
-    <p>Work : {work}</p>
+    <p className="lead">{description}</p>
+    <p className="lead">Work : {work}</p>
+    <p className="small">Status: {status}</p>
 
     <Row className="show-grid">
       <Col xs={12}>

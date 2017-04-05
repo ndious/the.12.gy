@@ -3,75 +3,90 @@
     "company": "Freelance",
     "city": "Hendaye",
     "date": "from 2015",
-    "title": "Développeur indépendant",
+    "title": "Developer",
     "sub": [
       { 
         "date": "from 2015",
-        "work": "Création d’une plateforme d’échange B to C pour les professionnels du tourisme"
+        "work": "Creation of a web plateform B to C for tourim  professionals"
       }, {
         "date": "from 2015",
-        "work": "Divers projets de R&D Open-Source sur de nouveaux patterns de framework web (tiimber et houra)"
-      }, {
-        "date": "from 2016",
-        "work": "Travaille sur la création et conception d’une application afin de promouvoir les langues régionales"
-      }, {
+        "work": "Multiple R&D project open source on framework pattern"
+      },  {
         "date": "from 2017",
-        "work": "Création d’une plateforme numérique d’agenda"
+        "work": "Create onlinne agenda"
       }
     ]
   }, {
     "company": "Lp Digital System",
     "city": "Paris",
     "date": "from 2012 to 2015",
-    "title": "Ingénieur études et développement",
+    "title": "Engineer in study and developmentt",
     "sub": [
       { 
         "date": "2014 to 2015",
-        "work": "Lead développeur JavaScript du CMS Open-Source BackBee"
+        "work": "Lead developer JavaScript for the Open-Source CMS BackBee"
       }, {
         "date": "2012 to 2014",
-        "work": "Lead développeur PHP du CMS Open-Source BackBee"
+        "work": "Lead developer PHP for the Open-Source CMS BackBee"
       }
     ]
   }, {
     "company": "ALTEN SIR",
     "city": "Paris",
     "date": "in 2012",
-    "title": "Ingénieur développement",
+    "title": "Engineer in development",
     "sub": [
       { 
         "date": "2012",
-        "work": "Développeur pour le compte de la société So Travo"
+        "work": "Developer in mission in So Travo company"
       }
     ]
   }, {
     "company": "Pixel Cookers",
     "city": "Cergy Pontoise",
     "date": "from 2010 to 2O12",
-    "title": "Développeur (alternance)",
+    "title": "Developer (alternation)",
     "sub": [
       { 
         "date": "2011 to 2012",
-        "work": "Responsable des développements e-commerce sur Magento"
+        "work": "In charge of develop e-commerce web site on Magento"
       }, {
         "date": "2010 to 2011",
-        "work": "Développement du site www.mmopizza.com sur Symfony 1"
+        "work": "Develop a social platform called MMoPizza on Symfony 1.4"
       }
     ]
   }, {
     "company": "Freelance",
     "city": "Hendaye/Paris",
     "date": "from 2009 to 2010",
-    "title": "Developeur freelance"
+    "title": "Developer",
+    "sub": [
+      { 
+        "date": "2009 to 2010",
+        "work": "Create professionals web sites"
+      }
+    ]
   }, {
     "company": "Aditu",
     "city": "Bidart",
     "date": "in 2009",
-    "title": "Développeur (stage)"
+    "title": "Développeur (stage)",
+    "sub": [
+      { 
+        "date": "2009",
+        "work": "Create a intranet plateform for server's company management"
+      }
+    ]
   }, {
     "company": "Technolande",
     "city": "Soustons",
     "date": "2007 and 2008",
-    "title": "Technicien informatique"
+    "title": "Technicien informatique",
+    "sub": [
+      { 
+        "date": "2007 and 2008",
+        "work": "Customer computer maintenance and give computer classes"
+      }
+    ]
   }
 ]
