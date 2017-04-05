@@ -1,5 +1,4 @@
-import React from 'react';
-import { createStore } from 'redux'
+import React from 'react'
 import { shallow } from 'enzyme'
 import configureMockStore from 'redux-mock-store'
 

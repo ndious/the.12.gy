@@ -22,7 +22,7 @@ const DevelopmentList = ({developments}) => (
 
 
 DevelopmentList.propTypes = {
-  developments: PropTypes.arrayOf(PropTypes.shape(Definition).isRequired)
+  developments: PropTypes.arrayOf(PropTypes.shape(Definition).isRequired).isRequired
 }
 
 export default DevelopmentList

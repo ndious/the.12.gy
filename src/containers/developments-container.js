@@ -13,7 +13,7 @@ const getDevelopments = (developments, filter) => {
     case constants.DEV_FILTER_SHOW_PERSONNALS:
       return developments.filter(dev => !dev.company)
     default:
-      return developments
+      throw new Error('Unknown filter: ' + filter)
   }
 }
 
