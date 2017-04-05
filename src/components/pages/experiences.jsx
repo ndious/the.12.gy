@@ -3,10 +3,11 @@ import { Grid, Row, Col } from 'react-bootstrap'
 
 import Experience from './../experience';
 import data from './../../data/experiences.json'
+import './../../assets/experiences.css'
 
 const Experiences = () => (
-  <Grid>
-    <Row className="show-grid">
+  <Grid className="experiences-page">
+    <Row>
       <Col xs={12}>
         {data.map((experience, key) => (<Experience key={key} {...experience} />))}
       </Col>

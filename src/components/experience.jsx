@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron, Row, Col } from 'react-bootstrap'
+import { Jumbotron } from 'react-bootstrap'
 
 import Definition from './../definitions/experience-definition'
 
@@ -11,18 +11,16 @@ const Experience = ({
   sub
 }) => (
   <Jumbotron>
-    <h1>{company} <small className="text-right">{city}</small></h1>
-    <p>{date} - {title}</p>
+    <h1 className="jumbo-title">{company} <small className="location"><i className="ion-location"></i> {city}</small></h1>
+    <p className="lead">{date} <i className="ion-code-working"></i> {title}</p>
 
-    <Row className="show-grid">
-      <Col xs={11} xsOffset={1}>
-        {sub && sub.map(({date, work}, key) => (
-          <div key={key}>
-            <p>{date} - {work}</p>
-          </div>
-        ))}
-      </Col>
-    </Row>
+    <ul className="list-unstyled job-list">
+      {sub && sub.map(({date, work}, key) => (
+        <li key={key}>
+          <i className="ion-ios-arrow-forward"></i> {date} - {work}
+        </li>
+      ))}
+    </ul>
   </Jumbotron>
 )
 
