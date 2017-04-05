@@ -1,10 +1,8 @@
 import React from 'react'
-//import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { shallow } from 'enzyme'
 
 import Reducers from './../../src/reducers'
-//import FilterLinkContainer from './../../src/containers/filter-link-container'
 import FilterButton from './../../src/components/filter-button'
 
 function setup(active = false) {

@@ -18,7 +18,8 @@
     "enzyme": "^2.8.0",
     "less": "^2.7.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "redux-mock-store": "^1.2.2"
   },
   "scripts": {
     "bootstrap": "lessc src/less/bootstrap.less src/assets/bootstrap.css",
