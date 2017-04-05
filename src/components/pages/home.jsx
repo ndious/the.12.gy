@@ -14,8 +14,8 @@ const Home = () => (
           <h2 className="meet">Meet the 12 guy</h2>
           <h1>Nicolas Dufreche</h1>
         </Col>
-      <Row>
       </Row>
+      <Row>
         <Col xs={12}>
           <h2 className="small">I'm Web Developer / Enginer in <abbr title="Research and Developments">R&D</abbr></h2>
         </Col>
