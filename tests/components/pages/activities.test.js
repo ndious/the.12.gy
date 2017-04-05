@@ -6,7 +6,7 @@ import { createStore } from 'redux'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
 
-import { ActivityPage } from './../../../src/components/pages'
+import { ActivitiesPage } from './../../../src/components/pages'
 import Reducers from './../../../src/reducers'
 import App from './../../../src/components/app';
 
@@ -23,7 +23,7 @@ it('renders without crashing', () => {
       <div className="full-height">
         <Router history={history}>
           <Route path="/" component={App}>
-            <IndexRoute component={ActivityPage}/>
+            <IndexRoute component={ActivitiesPage}/>
           </Route>
         </Router>
       </div>
