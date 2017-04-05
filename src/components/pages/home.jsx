@@ -7,7 +7,7 @@ import { curiosities, skillz } from './../../data/home.json'
 import './../../assets/home.css'
 
 const Home = () => (
-  <div className="home-page">
+  <div className="home page">
     <Grid>
       <Row>
         <Col xs={12}>

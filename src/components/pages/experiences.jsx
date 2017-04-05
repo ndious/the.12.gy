@@ -6,7 +6,7 @@ import data from './../../data/experiences.json'
 import './../../assets/experiences.css'
 
 const Experiences = () => (
-  <Grid className="experiences-page">
+  <Grid className="experiences page">
     <Row>
       <Col xs={12}>
         {data.map((experience, key) => (<Experience key={key} {...experience} />))}

@@ -1,6 +1,6 @@
 import HomePage from './home'
 import DevelopmentsPage from './developments'
-import ActivityPage from './activity'
+import ActivitiesPage from './activities'
 import ExperiencesPage from './experiences'
 
-export { HomePage, DevelopmentsPage, ActivityPage, ExperiencesPage }
+export { HomePage, DevelopmentsPage, ActivitiesPage, ExperiencesPage }
