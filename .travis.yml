@@ -6,6 +6,7 @@ install:
   - yarn run bootstrap
 script:
   - yarn run test-ci
+cache: yarn
 env:
   global:
     - USE_YARN=yes
@@ -15,4 +16,4 @@ addons:
 after_success:
   - npm install -g codeclimate-test-reporter netlify-cli
   - codeclimate-test-reporter < coverage/lcov.info
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then netlify deploy -e production -t NETLIFY-TOKEN -s NETLIFY-SITE-ID; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then netlify deploy -e production -t $NETLIFY-TOKEN -s $NETLIFY-SITE-ID; fi'
