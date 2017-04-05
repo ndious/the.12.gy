@@ -25,7 +25,7 @@
     "bootstrap": "lessc src/less/bootstrap.less src/assets/bootstrap.css",
     "start": "react-scripts start",
     "c9start": "PORT=8080 react-scripts start",
-    "build": "react-scripts build",
+    "build": "lessc src/less/bootstrap.less src/assets/bootstrap.css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "test-ci": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
