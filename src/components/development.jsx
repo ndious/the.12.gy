@@ -2,7 +2,6 @@ import React from 'react'
 import { Jumbotron, Button, Row, Col } from 'react-bootstrap'
 
 import Definition from './../definitions/development-definition'
-import './../assets/development.css'
 
 const Development = ({ 
   name, 
