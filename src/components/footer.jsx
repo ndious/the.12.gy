@@ -1,28 +1,15 @@
 import React from 'react'
-import { Grid, Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap'
+import { Grid, Row, Col } from 'react-bootstrap'
+
+import { SocialBlock, BuildBlock } from './blocks'
 import socials from './../data/socials.json'
-
 import './../assets/footer.css'
-
-const SocialLink = ({url, overlay, icon}) => (
-  <Col xs={2} sm={1}>
-    <OverlayTrigger placement="top" overlay={<Tooltip id={icon}>{overlay}</Tooltip>}>
-      <a href={url} className="footer-link"><i className={`icon ion-${icon}`}></i></a>
-    </OverlayTrigger>
-  </Col>
-)
-
-const BuildLink = ({url, src, alt}) => (
-  <Col xs={4} sm={6} className="build-link">
-    <a href={url}><img alt={alt} src={src} /></a>
-  </Col>
-)
 
 const Footer = () => (
   <footer className="footer">
     <Grid>
       <Row className="social-icons">
-        {socials.map((social, key) => (<SocialLink key={key} {...social} />))}
+        {socials.map((social, key) => (<SocialBlock key={key} {...social} />))}
 
         <Col xsHidden sm={4} smOffset={2} md={3} mdOffset={3} lg={2} lgOffset={4}>
           <Row className="social-icons">
@@ -38,7 +25,7 @@ const Footer = () => (
                   src: 'https://codeclimate.com/github/ndufreche/the.12.gy/badges/gpa.svg',
                   alt: 'tcode climate badge'
                 }
-              ].map((build, key) => (<BuildLink key={key} {...build} />))
+              ].map((build, key) => (<BuildBlock key={key} {...build} />))
             }
           </Row>
         </Col>

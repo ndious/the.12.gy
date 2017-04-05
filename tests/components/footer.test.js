@@ -15,8 +15,8 @@ describe('components', () => {
       const enzymeWrapper = setup()
 
       expect(enzymeWrapper.find('footer').hasClass('footer')).toBe(true)
-      expect(enzymeWrapper.find('SocialLink').length).toBe(socials.length)
-      expect(enzymeWrapper.find('BuildLink').length).toBe(2)
+      expect(enzymeWrapper.find('Social').length).toBe(socials.length)
+      expect(enzymeWrapper.find('Build').length).toBe(2)
     })
   })
 })

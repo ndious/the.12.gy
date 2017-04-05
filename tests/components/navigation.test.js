@@ -25,7 +25,8 @@ describe('components', () => {
       expect(enzymeWrapper.find({isActive: true}).length).toBe(0)
       expect(enzymeWrapper.find({isActive: false}).length).toBe(3)
 
-      expect(enzymeWrapper.find('Link').length).toBe(4)
+      expect(enzymeWrapper.find('Brand').length).toBe(1)
+      expect(enzymeWrapper.find('Link').length).toBe(3)
     })
 
     it('should set active on the good link when pathname is /experiences', () => {
