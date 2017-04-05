@@ -6,7 +6,7 @@
   top: 57px;
 }
 
-.developments-page {
+.developments.page {
   margin-top: 65px;
 }
 
@@ -41,7 +41,7 @@
 
 
 @media screen and (max-width: 362px) {
-  .developments-page {
+  .developments.page {
     margin-top: 78px;
   }
 }
