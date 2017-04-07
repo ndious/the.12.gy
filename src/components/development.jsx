@@ -22,8 +22,8 @@ const Development = ({
     <Row className="show-grid">
       <Col xs={12}>
         <div className="btn-group" role="group" aria-label="...">
-          {opensource && status === 'online' && <Button bsStyle="success" href={opensource}>Github</Button>}
-          {url && <Button bsStyle="primary" href={url}>{url}</Button>}
+          {opensource && <Button bsStyle="success" href={opensource}>Github</Button>}
+          {url  && <Button bsStyle="primary" disabled={status !== 'online'} href={url}>{url}</Button>}
         </div>
       </Col>
     </Row>

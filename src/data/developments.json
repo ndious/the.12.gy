@@ -20,7 +20,7 @@
     "name": "Tiimber",
     "url": "https://github.com/ndufreche/tiimber",
     "opensource": "https://github.com/ndufreche/tiimber",
-    "description": "Créer un framework Views/Actions en php.",
+    "description": "Framework Views/Actions creation in php.",
     "techs": ["PHP7", "ReactPHP", "Symfony-Router"],
     "status": "development",
     "work": "Conception and development."
@@ -29,7 +29,7 @@
     "name": "Houra",
     "url": "https://gitub.com/hapipip/houra",
     "opensource": "https://gitub.com/hapipip/houra",
-    "description": "NodeJs Framework builder, basé sur le style docker-compose.",
+    "description": "NodeJs Framework builder, based on docker-compose configuration file.",
     "techs": ["NodeJS", "HapiJS"],
     "status": "conception",
     "work": "Conception et development in collaboration with a coworkeur." 
