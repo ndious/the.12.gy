@@ -3,219 +3,219 @@
     "name": "the.12.gy",
     "url": "http://the.12.gy",
     "opensource": "https://github.com/ndufreche/the.12.gy",
-    "description": "Personnal website",
+    "description": "Personnal website.",
     "techs": ["React", "Redux", "React-Router", "React-Bootstrap", "ServiceWorker"],
     "status": "online",
-    "work": "Conception, development, graphisme and integration"
+    "work": "Conception, development, graphism and integration."
   },
   {
     "name": "Yepa",
     "url": "localhost:3000",
-    "description": "Private project realized with my brother",
+    "description": "Private project realized with my brother.",
     "techs": ["React", "RxDB", "React-Router", "PouchDB"],
     "status": "development",
-    "work": "Conception, development, graphisme and integration"
+    "work": "Conception, development, graphism and integration."
   },
   {
     "name": "Tiimber",
     "url": "https://github.com/ndufreche/tiimber",
     "opensource": "https://github.com/ndufreche/tiimber",
-    "description": "Créer un framework Views/Actions en php",
+    "description": "Créer un framework Views/Actions en php.",
     "techs": ["PHP7", "ReactPHP", "Symfony-Router"],
     "status": "development",
-    "work": "Conception and development"
+    "work": "Conception and development."
   },
   {
-    "name": "houra",
+    "name": "Houra",
     "url": "https://gitub.com/hapipip/houra",
     "opensource": "https://gitub.com/hapipip/houra",
-    "description": "NodeJs Framework builder, basé sur le style docker-compose",
+    "description": "NodeJs Framework builder, basé sur le style docker-compose.",
     "techs": ["NodeJS", "HapiJS"],
     "status": "conception",
-    "work": "Conception et development en collaboration avec un coworkeur" 
+    "work": "Conception et development in collaboration with a coworkeur." 
   },
   {
-    "name": "redlist",
+    "name": "Redlist",
     "url": "https://redlist.github.io",
     "opensource": "https://gitub.com/redlist/redlist.github.io",
-    "description": "Projet éclair en 3 jours pour aider un ami à apprendre le JavaScript/Stylus/Pug/SW",
+    "description": "Quick project realized in 3 days to help friend for learn JavaScript/Stylus/Pug/SW.",
     "techs": ["JavaScript", "Stylus", "Pug", "ServiceWorker", "materialize", "jQuery"],
     "status": "online",
-    "work": "Conception, development, graphisme et intégration"
+    "work": "Conception, development, graphism et integration."
   },
   {
-    "name": "takaclic",
+    "name": "Takaclic",
     "url": "https://www.takaclic.com",
-    "description": "Plateforme B to C autour du tourrisme",
+    "description": "B2C Plateform for tourrism professional.",
     "techs": ["PHP", "materialize", "jQuery"],
     "status": "online",
-    "work": "Development, graphisme et intégration"
+    "work": "Development, graphism et intsgration."
   },
   {
     "name": "Jiink",
     "url": "https://jiink.io",
     "opensource": "https://github.com/ndufreche/jinc",
-    "description": "Application multi support pour ce retrouvé entre amis",
+    "description": "Mutli-Application support to retreive friend.",
     "techs": ["JavaScript"],
     "status": "broken",
-    "work": "Conception et development"
+    "work": "Conception et development."
   },
   {
     "name": "BFM TV - RMC - 01 NET",
     "url": "http://www.bfmtv.com/",
-    "description": "Site d\"actualité",
+    "description": "French actuality web-site",
     "techs": ["BackBee"],
     "status": "online",
     "company": "Lp Digital",
-    "work": "Optimisation du CMS, transfert des données, création d\"un plugin pour connecté les applications mobile et formations des équipes techniques."
+    "work": " CMS optimisation, data transfert, create a plugin to connect all mobil apps and technical equips fromations."
   },
   {
     "name": "BackBee",
     "url": "http://www.backbee.com/",
     "opensource": "https://github.com/backbee",
-    "description": "CMS open sources",
+    "description": "Open source CMS.",
     "techs": ["Symfony", "jQuery", "Backbones", "JSClass"],
     "status": "online",
     "company": "Lp Digital",
-    "work": "Development du la partie Back end et Front end, mise en place des testes unitaire, processus de travaille, gestion d\"équipes"
+    "work": "Back-end and Front-end development, unit test integration, work process and team management."
   },
   {
     "name": "Wansquare",
     "url": "http://www.wansquare.com/",
-    "description": "Site de news spécialisé dans les coulisses de l\"économie et des finances",
+    "description": "Specialized web site around economy and finances, for professional.",
     "techs": ["BackBee"],
     "status": "online",
     "company": "Lp Digital",
-    "work": "Development du site, création d\"un CRM intégré et système d\"emailing"
+    "work": "Development, create a integrated CRM and emailing system."
   },
   {
     "name": "Le revenu",
     "url": "http://www.lerevenu.com/",
-    "description": "Site dédié aux placements financiers",
+    "description": "Web site specialized in financial investments.",
     "techs": ["BackBuilder"],
     "status": "offline",
     "company": "Lp Digital",
-    "work": "Débuging et optimisations."
+    "work": "Debug and optimisation."
   },
   {
     "name": "Keltravo",
     "url": "http://www.keltravo.com/",
-    "description": "Site dédié à la mise en relation professionels du batiments et particuliers",
+    "description": "B2C web site dedicated to the professional relationship of buildings and individuals",
     "techs": ["Framework Maison"],
     "status": "online",
     "company": "Alten SIR",
-    "work": "Débuging et création de nouveaux modules métiers."
+    "work": "Debugging and creation of new business modules."
   },
   {
     "name": "Sources Intérieur",
     "url": "http://www.sources-interieur.com/",
-    "description": "Vente de produit d’intérieur réalisé par des designers",
+    "description": "E-commerce that sale of interior products created by designers.",
     "techs": ["Magento", "jQuery"],
     "status": "online",
     "company": "PixelCookers",
-    "work": "Conception technique, modifications légère du CMS et intégration graphique, configuration serveur"
+    "work": "Technical conception, light modifcations of Magento, grafism integration and server configuration."
   },
   {
     "name": "Sofys",
     "url": "http://www.sofys-traiteur.com/",
-    "description": "Vente de plateaux repas et buffets traiteur",
+    "description": "E-commerce that sale of catering trays and buffets.",
     "techs": ["Magento", "jQuery", "Less"],
     "status": "online",
     "company": "PixelCookers",
-    "work": "Conception technique, modifications légère du CMS, création de pages produits spécifiques et intégration graphique, configuration serveur"
+    "work": "Technical conception, light modifcations of Magento, creating customs pages for specific products, grafism integration and server configuration."
   },
   {
     "name": "Brands on air",
     "url": "http://www.brandsonair.com/",
-    "description": "Vente d’objets en tout genre ayant une relation avec le petit et grand écran",
+    "description": "E-commerce that sale of objects of all kinds having a relationship with television and cinema.",
     "techs": ["Magento", "Zend", "jQuery"],
     "status": "online",
     "company": "PixelCookers",
-    "work": "Intégrer un site e-commerce au site existant, modifications complète du CMS, conception technique, intégration graphique, débogage de la plateforme précédente"
+    "work": "Integrate an e-commerce web site into the existing site, total CMS modifications, technical design, graphical integration, debugging of the previous platform."
   },
   {
     "name": "Créer mon livre",
     "url": "http://www.creermonlivre.com/",
-    "description": "Vente de livres personnalisés",
+    "description": "E-commerce that sales of personalized books.",
     "techs": ["Magento", "Symfony", "jQuery", "Less", "Twitter Bootstrap"],
     "status": "online",
     "company": "PixelCookers",
-    "work": "Faire un jumelage entre les plateformes Magento et Symfony,conception techniquedu e-commerce, intégration graphique, création d’un plugin anything slider, multiples modification du cms"
+    "work": "Make a twinning between the Magento and Symfony platforms, e-commerce technical design, graphic integration, creation of a plugin anything slider, multiple cms modification."
   },
   {
     "name": "BMLoc",
     "url": "http://www.bm-loc.fr/",
-    "description": "Site e-commerce pour la location de matériel de chantier",
+    "description": "E-commerce for the rental of construction site equipment.",
     "techs": ["Magento"],
     "status": "online",
     "company": "PixelCookers",
-    "work": "Débogage et multiple mini-évolutions"
+    "work": "Debbuging and integration of little features."
   },
   {
     "name": "Des filles à la vanille",
     "url": "http://www.desfillesalavanille.com/",
-    "description": "Site e-commerce de vente de cosmétiques et vêtements féminin pour particulier et professionels",
+    "description": "E-commerce that sales of cosmetics and women's clothing for individuals and professionals.",
     "techs": ["Magento"],
     "status": "online",
     "company": "PixelCookers",
-    "work": "Débogage et multiple mini-évolutions"
+    "work": "Debbuging and integration of little features."
   },
   {
     "name": "Dans tous nos cartons",
-    "description": "Vente d’objet de puériculture d’ocasion",
+    "description": "E-commerce that sale of second-hand baby items",
     "techs": ["Magento", "jQuery", "Less"],
     "status": "offline",
     "company": "PixelCookers",
-    "work": "Conception technique, intégration graphique, multiples modification du cms"
+    "work": "Technical conception, modifcations of Magento and grafism integration"
   },
   {
     "name": "Tec parts",
     "url": "http://www.tec-parts.fr/",
-    "description": "Vente d’ampoules et ballais d’essuies glace de voiture pour particuliers et professionnels",
+    "description": "E-commerce that sale of bulbs and balls of car glass wipers for individuals and professionals",
     "techs": ["Magento", "jQuery", "Less"],
     "status": "offline",
     "company": "PixelCookers",
-    "work": "Mise à jour de la version précédente, conception technique, multiples modification du CMS"
+    "work": "Update of the previous version, technical design, multiple CMS modification"
   },
   {
     "name": "MMO Pizza",
     "url": "http://www.mmopizza.com/",
-    "description": "Site dédié aux jeux vidéo massivement multi-joueurs",
+    "description": "Social network  dedicated to massively multiplayer video games",
     "techs": ["Symfony 1.4", "jQuery", "Less"],
     "status": "offline",
     "company": "PixelCookers",
-    "work": "Amélioration du plugin sfZnForum et intégration graphique, mise en place des teste unitaires, amélioration du module de raid et fiche utilisateur, conception et development d’un plugin CMS de guilde avec son propre système de plugin et de gestion des dépendances, création d’un plugin pour l’intégration de Markitup, débogage des embed form de symfony et divers évolutions."
+    "work": "Improvement of the sfZnForum plugin and graphical integration, implementation of the unit tests, improvement of the raid module and user sheet, design and development of a CMS guild plugin with its own plugin and dependency management system, creation of a Plugin for the integration of Markitup, debugging symfony embed form and various evolutions."
   },
   {
     "name": "Duosun",
     "url": "http://duosun.12.gy/",
-    "description": "Site vitrine pour la gouttière solaire Duosun",
+    "description": "Site showcase for Duosun solar gutter.",
     "techs": ["Zend", "jQuery", "Less", "Twitter Bootstrap"],
     "status": "online",
-    "work": "Conception et development du site, configuration serveur"
+    "work": "Site design and development, server configuration."
   },
   {
     "name": "C’est quoi le luxe",
     "url": "http://cql.12.gy/",
-    "description": "Site fun sur le thème de votre vision du luxe",
+    "description": "Fun site on the theme of your vision of luxury.",
     "techs": ["Zend", "jQuery", "Less"],
     "status": "online",
-    "work": "Conception, design, developmentet intégrationdu site, configuration serveur"
+    "work": "Web site design, design, development and integration, server configuration."
   },
   {
     "name": "Géomagna",
     "url": "geomagna.12.gy",
-    "description": "Course géolocalisé par smartphone via navigateur et création du site évènementiel",
+    "description": "Race geolocated by smartphone via browser and creation of the event site.",
     "techs": ["Zend", "jQuery", "Less"],
     "status": "offline",
-    "work": "Conception, design, development et intégration du site, infographies, affiches, configuration serveur"
+    "work": "Site design, development and integration, infographics, posters, server configuration"
   },
   {
     "name": "Aditu Intranet",
-    "description": "Site intranet pour faciliter la gestion d’une ferme de serveurs",
+    "description": "Intranet site to facilitate server farm management",
     "techs": ["Symfony1.2", "jQuery"],
     "status": "offline",
     "company": "Aditu",
-    "work": "Conception, design, development et intégration du site"
+    "work": "Site design, design, development and integration"
   }
 ]
