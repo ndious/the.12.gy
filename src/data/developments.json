@@ -3,8 +3,8 @@
     "name": "the.12.gy",
     "url": "http://the.12.gy",
     "opensource": "https://github.com/ndufreche/the.12.gy",
-    "description": "Personnal website.",
-    "techs": ["React", "Redux", "React-Router", "React-Bootstrap", "ServiceWorker"],
+    "description": "Personal website.",
+    "techs": ["React", "Redux", "React-Router", "React-Bootstrap"],
     "status": "online",
     "work": "Conception, development, graphism and integration."
   },
