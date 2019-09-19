@@ -6,9 +6,9 @@ import { createStore } from 'redux'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
 
-import { DevelopmentsPage } from './../../../src/components/pages'
-import Reducers from './../../../src/reducers'
-import App from './../../../src/components/app';
+import { HomePage } from './../../../components/pages'
+import Reducers from './../../../reducers'
+import App from './../../../components/app';
 
 const store = createStore(
   Reducers
@@ -23,7 +23,7 @@ it('renders without crashing', () => {
       <div className="full-height">
         <Router history={history}>
           <Route path="/" component={App}>
-            <IndexRoute component={DevelopmentsPage}/>
+            <IndexRoute component={HomePage}/>
           </Route>
         </Router>
       </div>

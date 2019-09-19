@@ -1,12 +1,15 @@
 import React from 'react';
 import { createStore } from 'redux'
-import { shallow, mount } from 'enzyme'
+import { shallow, mount, configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-15'
 
-import Reducers from './../../src/reducers'
-import { setDevelopmentFilter } from './../../src/actions/action-type.js'
-import constants from './../../src/constants'
-import DevelopmentsContainer from './../../src/containers/developments-container'
-import developments from './../../src/data/developments.json'
+import Reducers from './../../reducers'
+import { setDevelopmentFilter } from './../../actions/action-type.js'
+import constants from './../../constants'
+import DevelopmentsContainer from './../../containers/developments-container'
+import developments from './../../data/developments.json'
+
+configure({adapter: new Adapter()});
 
 const setup = () => {
   const store = createStore(Reducers)

@@ -1,6 +1,9 @@
 import React from 'react'
-import { shallow } from 'enzyme'
-import Navigation from './../../src/components/navigation'
+import { shallow, configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-15'
+import Navigation from './../../components/navigation'
+
+configure({adapter: new Adapter()});
 
 function setup(pathname) {
   const props = {

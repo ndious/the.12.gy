@@ -1,7 +1,10 @@
 import React from 'react'
-import { shallow } from 'enzyme'
-import Footer from './../../src/components/footer'
-import socials from './../../src/data/socials.json'
+import { shallow, configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-15'
+import Footer from './../../components/footer'
+import socials from './../../data/socials.json'
+
+configure({adapter: new Adapter()});
 
 function setup() {
   const enzymeWrapper = shallow(<Footer />)

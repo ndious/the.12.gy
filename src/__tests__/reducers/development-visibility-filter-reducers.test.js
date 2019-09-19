@@ -1,7 +1,5 @@
-import reducer from './../../src/reducers/development-visibility-filter-reducer'
-import constants from './../../src/constants'
-//import data from './../../src/data/developments'
-//import * as types from '../../constants/ActionTypes'
+import reducer from './../../reducers/development-visibility-filter-reducer'
+import constants from './../../constants'
 
 describe('develoment visibility filter reducer', () => {
   it('should return the initial state', () => {

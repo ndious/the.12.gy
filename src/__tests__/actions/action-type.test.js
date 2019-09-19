@@ -1,5 +1,5 @@
-import * as actions from './../../src/actions/action-type'
-import constants from '../../src/constants'
+import * as actions from './../../actions/action-type'
+import constants from './../../constants'
 
 describe('actions', () => {
   it('should create an action to add a development filter', () => {

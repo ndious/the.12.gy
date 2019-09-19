@@ -1,12 +1,12 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "the.12.gy",
+  "version": "1.2.12",
   "private": true,
   "dependencies": {
-    "bootstrap": "3",
+    "bootstrap": "^3.4.1",
     "keymirror": "^0.1.1",
     "react": "^15.4.2",
-    "react-bootstrap": "^0.30.8",
+    "react-bootstrap": "^0.30.10",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",
     "react-router": "v3",
@@ -15,11 +15,14 @@
     "redux": "^3.6.0"
   },
   "devDependencies": {
-    "enzyme": "^2.8.0",
+    "ajv": "^6.10.2",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-15": "^1.4.0",
     "flow-bin": "^0.43.0",
     "less": "^2.7.2",
     "react-addons-test-utils": "^15.4.2",
     "react-scripts": "^3.1.1",
+    "react-test-renderer": "^15.6.2",
     "redux-mock-store": "^1.2.2"
   },
   "scripts": {

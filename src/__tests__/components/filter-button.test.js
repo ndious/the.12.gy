@@ -1,9 +1,12 @@
 import React from 'react'
 import { createStore } from 'redux'
-import { shallow } from 'enzyme'
+import { shallow, configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-15'
 
-import Reducers from './../../src/reducers'
-import FilterButton from './../../src/components/filter-button'
+import Reducers from './../../reducers'
+import FilterButton from './../../components/filter-button'
+
+configure({adapter: new Adapter()});
 
 function setup(active = false) {
   const props = {

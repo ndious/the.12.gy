@@ -2,17 +2,14 @@ language: node_js
 node_js:
   - 10
 install:
-  - yarn
-  - yarn run bootstrap
+  - npm install
+  - npm run bootstrap
 script:
-  - yarn run test-ci
-cache: yarn
-env:
-  global:
-    - USE_YARN=yes
+  - npm run test-ci
+cache: npm
 addons:
   code_climate:
     repo_token: CODE_CLIMATE_TOKEN
 after_success:
-  - yarn global add codeclimate-test-reporter
+  - npm global add codeclimate-test-reporter
   - codeclimate-test-reporter < coverage/lcov.info

@@ -1,9 +1,12 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { shallow, configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-15'
 import configureMockStore from 'redux-mock-store'
 
-import FilterLink from './../../src/containers/filter-link-container'
-import constants from './../../src/constants'
+import FilterLink from './../../containers/filter-link-container'
+import constants from './../../constants'
+
+configure({adapter: new Adapter()});
 
 const setup = () => {
   const store = configureMockStore()({})
