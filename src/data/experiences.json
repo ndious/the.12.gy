@@ -1,11 +1,28 @@
 [
   {
+    "company": "NaturaBuy",
+    "city": "Pau",
+    "date": "from 2017",
+    "title": "Engineer",
+    "sub": [
+      {
+        "date": "from 2017",
+        "work": "Creation of NaturaBuy Magento Plugin"
+      }, {
+        "date": "from 2018",
+        "work": "Creation of NaturaBuy iOS application"
+      },  {
+        "date": "from 2017",
+        "work": "Working on the website"
+      }
+    ]
+  }, {
     "company": "Freelance",
     "city": "Hendaye",
     "date": "from 2015",
     "title": "Developer",
     "sub": [
-      { 
+      {
         "date": "from 2015",
         "work": "Creation of a web plateform B to C for tourim  professionals"
       }, {
@@ -22,7 +39,7 @@
     "date": "from 2012 to 2015",
     "title": "Engineer in study and developmentt",
     "sub": [
-      { 
+      {
         "date": "2014 to 2015",
         "work": "Lead developer JavaScript for the Open-Source CMS BackBee"
       }, {
@@ -36,7 +53,7 @@
     "date": "in 2012",
     "title": "Engineer in development",
     "sub": [
-      { 
+      {
         "date": "2012",
         "work": "Developer in mission in So Travo company"
       }
@@ -47,7 +64,7 @@
     "date": "from 2010 to 2O12",
     "title": "Developer (alternation)",
     "sub": [
-      { 
+      {
         "date": "2011 to 2012",
         "work": "In charge of develop e-commerce web site on Magento"
       }, {
@@ -61,7 +78,7 @@
     "date": "from 2009 to 2010",
     "title": "Developer",
     "sub": [
-      { 
+      {
         "date": "2009 to 2010",
         "work": "Create professionals web sites"
       }
@@ -72,7 +89,7 @@
     "date": "in 2009",
     "title": "Développeur (stage)",
     "sub": [
-      { 
+      {
         "date": "2009",
         "work": "Create a intranet plateform for server's company management"
       }
@@ -83,7 +100,7 @@
     "date": "2007 and 2008",
     "title": "Technicien informatique",
     "sub": [
-      { 
+      {
         "date": "2007 and 2008",
         "work": "Customer computer maintenance and give computer classes"
       }

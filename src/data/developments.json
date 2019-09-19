@@ -1,24 +1,59 @@
 [
   {
+    "name": "James",
+    "url": "https://github.com/ndious/James",
+    "opensource": "https://github.com/ndious/James",
+    "description": "Super autonomous website content spy.",
+    "techs": ["PHP7"],
+    "status": "online",
+    "work": "Conception and development."
+  },
+  {
+    "name": "NaturaBuy",
+    "url": "https://www.naturabuy.fr",
+    "description": "Hunting and fishing french Marketplace.",
+    "techs": ["PHP5", "PHP7", "JavaScript", "CSS", "MySQL"],
+    "status": "online",
+    "work": "Conception, development and Debbuging."
+  },
+  {
+    "name": "NaturaBuy iOS App",
+    "url": "https://apps.apple.com/fr/app/naturabuy/id689759509",
+    "description": "NaturaBuy iOS Application.",
+    "techs": ["PHP7"],
+    "status": "online",
+    "work": "Conception and development."
+  },
+  {
+    "name": "BSFP",
+    "url": "https://github.com/bsfp",
+    "opensource": "https://github.com/bsfp",
+    "description": "PHP independant micro components.",
+    "techs": ["PHP7"],
+    "status": "online",
+    "work": "Conception and development."
+  },
+  {
     "name": "the.12.gy",
     "url": "http://the.12.gy",
-    "opensource": "https://github.com/ndufreche/the.12.gy",
+    "opensource": "https://github.com/ndious/the.12.gy",
     "description": "Personal website.",
     "techs": ["React", "Redux", "React-Router", "React-Bootstrap"],
     "status": "online",
     "work": "Conception, development, graphism and integration."
   },
   {
-    "name": "Yepa",
-    "url": "localhost:3000",
-    "description": "Private project realized with my brother.",
-    "techs": ["React", "RxDB", "React-Router", "PouchDB"],
-    "status": "development",
-    "work": "Conception, development, graphism and integration."
+    "name": "console.scope",
+    "url": "https://github.com/ndious/console-scope",
+    "opensource": "https://github.com/ndious/console-scope",
+    "description": "Little enhancement for the JavaScript console tool.",
+    "techs": ["JavaScript"],
+    "status": "online",
+    "work": "Conception, development."
   },
   {
     "name": "Tiimber",
-    "url": "https://github.com/ndufreche/tiimber",
+    "url": "https://github.com/ndious/tiimber",
     "opensource": "https://github.com/ndufreche/tiimber",
     "description": "Framework Views/Actions creation in php.",
     "techs": ["PHP7", "ReactPHP", "Symfony-Router"],
@@ -32,7 +67,7 @@
     "description": "NodeJs Framework builder, based on docker-compose configuration file.",
     "techs": ["NodeJS", "HapiJS"],
     "status": "conception",
-    "work": "Conception et development in collaboration with a coworkeur." 
+    "work": "Conception et development in collaboration with a coworkeur."
   },
   {
     "name": "Redlist",
@@ -54,7 +89,7 @@
   {
     "name": "Jiink",
     "url": "https://jiink.io",
-    "opensource": "https://github.com/ndufreche/jinc",
+    "opensource": "https://github.com/ndious/jinc",
     "description": "Mutli-Application support to retreive friend.",
     "techs": ["JavaScript"],
     "status": "broken",
@@ -199,7 +234,7 @@
     "url": "http://cql.12.gy/",
     "description": "Fun site on the theme of your vision of luxury.",
     "techs": ["Zend", "jQuery", "Less"],
-    "status": "online",
+    "status": "offline",
     "work": "Web site design, design, development and integration, server configuration."
   },
   {
