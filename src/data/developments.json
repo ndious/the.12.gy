@@ -14,6 +14,7 @@
     "description": "Hunting and fishing french Marketplace.",
     "techs": ["PHP5", "PHP7", "JavaScript", "CSS", "MySQL"],
     "status": "online",
+    "company": "NaturaBuy",
     "work": "Conception, development and Debbuging."
   },
   {
@@ -22,6 +23,7 @@
     "description": "NaturaBuy iOS Application.",
     "techs": ["PHP7"],
     "status": "online",
+    "company": "NaturaBuy",
     "work": "Conception and development."
   },
   {
