@@ -19,7 +19,7 @@
     "flow-bin": "^0.43.0",
     "less": "^2.7.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-scripts": "0.9.5",
+    "react-scripts": "^3.1.1",
     "redux-mock-store": "^1.2.2"
   },
   "scripts": {
@@ -30,5 +30,17 @@
     "test": "react-scripts test --env=jsdom",
     "test-ci": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
