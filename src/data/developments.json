@@ -37,7 +37,7 @@
   },
   {
     "name": "the.12.gy",
-    "url": "http://the.12.gy",
+    "url": "https://ndufreche.netlify.com/",
     "opensource": "https://github.com/ndious/the.12.gy",
     "description": "Personal website.",
     "techs": ["React", "Redux", "React-Router", "React-Bootstrap"],
