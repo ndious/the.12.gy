@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/ndufreche/the.12.gy.svg?branch=master)](https://travis-ci.org/ndufreche/the.12.gy)
-[![Code Climate](https://codeclimate.com/github/ndufreche/the.12.gy/badges/gpa.svg)](https://codeclimate.com/github/ndufreche/the.12.gy)
-[![Test Coverage](https://codeclimate.com/github/ndufreche/the.12.gy/badges/coverage.svg)](https://codeclimate.com/github/ndufreche/the.12.gy/coverage)
+[![Build Status](https://travis-ci.org/ndious/the.12.gy.svg?branch=master)](https://travis-ci.org/ndufreche/the.12.gy)
+[![Code Climate](https://codeclimate.com/github/ndious/the.12.gy/badges/gpa.svg)](https://codeclimate.com/github/ndufreche/the.12.gy)
+[![Test Coverage](https://codeclimate.com/github/ndious/the.12.gy/badges/coverage.svg)](https://codeclimate.com/github/ndufreche/the.12.gy/coverage)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
