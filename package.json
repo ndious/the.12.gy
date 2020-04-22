@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^3.4.1",
     "keymirror": "^0.1.1",
+    "prop-types": "^15.7.2",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.10",
     "react-dom": "^15.4.2",
@@ -21,7 +22,7 @@
     "flow-bin": "^0.43.0",
     "less": "^2.7.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-scripts": "^3.1.1",
+    "react-scripts": "^3.4.1",
     "react-test-renderer": "^15.6.2",
     "redux-mock-store": "^1.2.2"
   },

@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 import { Link } from 'react-router'
 import { Navbar, Nav } from 'react-bootstrap'
 
@@ -20,7 +21,6 @@ const Navigation = ({pathname}) => (
         <Nav>
           <Li isActive={pathname === '/experiences'}><Link to="/experiences">Experiences</Link></Li>
           <Li isActive={pathname === '/developments'}><Link to="/developments">Developments</Link></Li>
-          <Li isActive={pathname === '/activity'}><Link to="/activity">@activity</Link></Li>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

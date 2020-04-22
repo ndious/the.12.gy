@@ -1,5 +1,6 @@
-import React, { PropTypes } from 'react'
-import { Grid, Row, Col } from 'react-bootstrap' 
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Grid, Row, Col } from 'react-bootstrap'
 
 import Development from './development.jsx'
 import Definition from './../definitions/development-definition'

@@ -1,11 +1,12 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 import { Row, Col } from 'react-bootstrap'
 
 const Skill = ({title, level}) => (
   <li>
     <Row>
       <Col xs={5} sm={6}>
-        {title} 
+        {title}
       </Col>
       <Col xs={7} sm={6}>
         {[1, 2, 3, 4, 5].map((val) => {

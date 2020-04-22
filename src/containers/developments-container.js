@@ -7,7 +7,7 @@ const getDevelopments = (developments, filter) => {
     case constants.DEV_FILTER_SHOW_ALL:
       return developments
     case constants.DEV_FILTER_SHOW_OPENSOURCE:
-      return developments.filter(dev => dev.opensource)
+      return developments.filter(dev => !!dev.opensource)
     case constants.DEV_FILTER_SHOW_ONLINE:
       return developments.filter(dev => dev.status === 'online')
     case constants.DEV_FILTER_SHOW_PERSONNALS:

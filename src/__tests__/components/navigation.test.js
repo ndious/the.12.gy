@@ -26,10 +26,10 @@ describe('components', () => {
       expect(enzymeWrapper.find('header').length).toBe(1)
 
       expect(enzymeWrapper.find({isActive: true}).length).toBe(0)
-      expect(enzymeWrapper.find({isActive: false}).length).toBe(3)
+      expect(enzymeWrapper.find({isActive: false}).length).toBe(2)
 
       expect(enzymeWrapper.find('Brand').length).toBe(1)
-      expect(enzymeWrapper.find('Link').length).toBe(3)
+      expect(enzymeWrapper.find('Link').length).toBe(2)
     })
 
     it('should set active on the good link when pathname is /experiences', () => {
@@ -37,7 +37,7 @@ describe('components', () => {
 
       expect(enzymeWrapper.find({isActive: true}).length).toBe(1)
       expect(enzymeWrapper.find({isActive: true}).children().children().text()).toBe('Experiences')
-      expect(enzymeWrapper.find({isActive: false}).length).toBe(2)
+      expect(enzymeWrapper.find({isActive: false}).length).toBe(1)
     })
 
     it('should set active on the good link when pathname is /developments', () => {
@@ -45,15 +45,7 @@ describe('components', () => {
 
       expect(enzymeWrapper.find({isActive: true}).length).toBe(1)
       expect(enzymeWrapper.find({isActive: true}).children().children().text()).toBe('Developments')
-      expect(enzymeWrapper.find({isActive: false}).length).toBe(2)
-    })
-
-    it('should set active on the good link when pathname is /activity', () => {
-      const { enzymeWrapper } = setup('/activity')
-
-      expect(enzymeWrapper.find({isActive: true}).length).toBe(1)
-      expect(enzymeWrapper.find({isActive: true}).children().children().text()).toBe('@activity')
-      expect(enzymeWrapper.find({isActive: false}).length).toBe(2)
+      expect(enzymeWrapper.find({isActive: false}).length).toBe(1)
     })
 
   })

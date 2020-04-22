@@ -1,5 +1,6 @@
-import React, { PropTypes} from 'react'
-import { Row, Col, ResponsiveEmbed } from 'react-bootstrap' 
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Row, Col, ResponsiveEmbed } from 'react-bootstrap'
 
 const Activity = ({title, src}) => (
   <Row>
